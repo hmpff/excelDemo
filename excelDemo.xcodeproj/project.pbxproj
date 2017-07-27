@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35FC7651F29C376001A1825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7641F29C376001A1825 /* main.m */; };
+		C35FC76E1F29C376001A1825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35FC76C1F29C376001A1825 /* Main.storyboard */; };
+		C35FC7701F29C376001A1825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35FC76F1F29C376001A1825 /* Assets.xcassets */; };
+		C35FC7731F29C376001A1825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7711F29C376001A1825 /* LaunchScreen.storyboard */; };
+		C35FC77E1F29C376001A1825 /* excelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC77D1F29C376001A1825 /* excelDemoTests.m */; };
+		C35FC7891F29C376001A1825 /* excelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7881F29C376001A1825 /* excelDemoUITests.m */; };
+		C35FC7A71F29C612001A1825 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7A21F29C612001A1825 /* firstViewController.m */; };
+		C35FC7A81F29C612001A1825 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7A41F29C612001A1825 /* secondViewController.m */; };
+		C35FC7AC1F29C642001A1825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7AB1F29C642001A1825 /* AppDelegate.m */; };
+		C35FC7AF1F29C681001A1825 /* excel.plist in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7AE1F29C681001A1825 /* excel.plist */; };
+		C35FC7B21F29C6A9001A1825 /* systransInquirystockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7B11F29C6A9001A1825 /* systransInquirystockModel.m */; };
+		C35FC7B61F29CA35001A1825 /* TopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7B41F29CA35001A1825 /* TopCollectionViewCell.m */; };
+		C35FC7B71F29CA35001A1825 /* TopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7B51F29CA35001A1825 /* TopCollectionViewCell.xib */; };
+		C35FC7BA1F29CAFD001A1825 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7B91F29CAFD001A1825 /* DetailTableViewCell.m */; };
+		C35FC7BD1F29CB26001A1825 /* TitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7BC1F29CB26001A1825 /* TitleTableViewCell.m */; };
+		C35FC7C31F29D6F2001A1825 /* ARCHIENavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7C21F29D6F2001A1825 /* ARCHIENavViewController.m */; };
+		C35FC7C61F29D72D001A1825 /* ARCHIETabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7C51F29D72D001A1825 /* ARCHIETabbarViewController.m */; };
+		C35FC7D81F29D784001A1825 /* classification_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7CA1F29D784001A1825 /* classification_1@2x.png */; };
+		C35FC7D91F29D784001A1825 /* classification_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7CB1F29D784001A1825 /* classification_1@3x.png */; };
+		C35FC7DA1F29D784001A1825 /* classification_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7CC1F29D784001A1825 /* classification_2@2x.png */; };
+		C35FC7DB1F29D784001A1825 /* classification_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7CD1F29D784001A1825 /* classification_2@3x.png */; };
+		C35FC7DC1F29D784001A1825 /* my_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7CE1F29D784001A1825 /* my_1@2x.png */; };
+		C35FC7DD1F29D784001A1825 /* my_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7CF1F29D784001A1825 /* my_1@3x.png */; };
+		C35FC7DE1F29D784001A1825 /* my_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7D01F29D784001A1825 /* my_2@2x.png */; };
+		C35FC7DF1F29D784001A1825 /* my_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7D11F29D784001A1825 /* my_2@3x.png */; };
+		C35FC7E01F29D784001A1825 /* recommendation_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7D21F29D784001A1825 /* recommendation_1@2x.png */; };
+		C35FC7E11F29D784001A1825 /* recommendation_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7D31F29D784001A1825 /* recommendation_1@3x.png */; };
+		C35FC7E21F29D784001A1825 /* recommendation_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7D41F29D784001A1825 /* recommendation_2@2x.png */; };
+		C35FC7E31F29D784001A1825 /* recommendation_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7D51F29D784001A1825 /* recommendation_2@3x.png */; };
+		C35FC7E71F29D904001A1825 /* UIImage+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC7E61F29D904001A1825 /* UIImage+UIImage.m */; };
+		C35FC7EA1F29DBDC001A1825 /* navigationbarBackgroundWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC7E91F29DBDC001A1825 /* navigationbarBackgroundWhite.png */; };
+		D285211924ECE54BFA4524EA /* libPods-excelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA3F224AAE66DA4067A794C /* libPods-excelDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C35FC77A1F29C376001A1825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35FC7581F29C376001A1825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35FC75F1F29C376001A1825;
+			remoteInfo = excelDemo;
+		};
+		C35FC7851F29C376001A1825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35FC7581F29C376001A1825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35FC75F1F29C376001A1825;
+			remoteInfo = excelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5B437D7336F97F80811DDD /* Pods-excelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-excelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-excelDemo/Pods-excelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA3F224AAE66DA4067A794C /* libPods-excelDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-excelDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA91E0909F2BE337BD640C9 /* Pods-excelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-excelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-excelDemo/Pods-excelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C35FC7601F29C376001A1825 /* excelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = excelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35FC7641F29C376001A1825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C35FC76D1F29C376001A1825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C35FC76F1F29C376001A1825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35FC7721F29C376001A1825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C35FC7741F29C376001A1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35FC7791F29C376001A1825 /* excelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = excelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35FC77D1F29C376001A1825 /* excelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = excelDemoTests.m; sourceTree = "<group>"; };
+		C35FC77F1F29C376001A1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35FC7841F29C376001A1825 /* excelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = excelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35FC7881F29C376001A1825 /* excelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = excelDemoUITests.m; sourceTree = "<group>"; };
+		C35FC78A1F29C376001A1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35FC79E1F29C469001A1825 /* excelDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = excelDemo.pch; sourceTree = SOURCE_ROOT; };
+		C35FC7A11F29C612001A1825 /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		C35FC7A21F29C612001A1825 /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		C35FC7A31F29C612001A1825 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		C35FC7A41F29C612001A1825 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		C35FC7AA1F29C642001A1825 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C35FC7AB1F29C642001A1825 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C35FC7AE1F29C681001A1825 /* excel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = excel.plist; sourceTree = "<group>"; };
+		C35FC7B01F29C6A9001A1825 /* systransInquirystockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = systransInquirystockModel.h; sourceTree = "<group>"; };
+		C35FC7B11F29C6A9001A1825 /* systransInquirystockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = systransInquirystockModel.m; sourceTree = "<group>"; };
+		C35FC7B31F29CA35001A1825 /* TopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionViewCell.h; sourceTree = "<group>"; };
+		C35FC7B41F29CA35001A1825 /* TopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionViewCell.m; sourceTree = "<group>"; };
+		C35FC7B51F29CA35001A1825 /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
+		C35FC7B81F29CAFD001A1825 /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		C35FC7B91F29CAFD001A1825 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		C35FC7BB1F29CB26001A1825 /* TitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleTableViewCell.h; sourceTree = "<group>"; };
+		C35FC7BC1F29CB26001A1825 /* TitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleTableViewCell.m; sourceTree = "<group>"; };
+		C35FC7C11F29D6F2001A1825 /* ARCHIENavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCHIENavViewController.h; sourceTree = "<group>"; };
+		C35FC7C21F29D6F2001A1825 /* ARCHIENavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCHIENavViewController.m; sourceTree = "<group>"; };
+		C35FC7C41F29D72D001A1825 /* ARCHIETabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCHIETabbarViewController.h; path = Tabar/ARCHIETabbarViewController.h; sourceTree = "<group>"; };
+		C35FC7C51F29D72D001A1825 /* ARCHIETabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARCHIETabbarViewController.m; path = Tabar/ARCHIETabbarViewController.m; sourceTree = "<group>"; };
+		C35FC7CA1F29D784001A1825 /* classification_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification_1@2x.png"; sourceTree = "<group>"; };
+		C35FC7CB1F29D784001A1825 /* classification_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification_1@3x.png"; sourceTree = "<group>"; };
+		C35FC7CC1F29D784001A1825 /* classification_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification_2@2x.png"; sourceTree = "<group>"; };
+		C35FC7CD1F29D784001A1825 /* classification_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification_2@3x.png"; sourceTree = "<group>"; };
+		C35FC7CE1F29D784001A1825 /* my_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_1@2x.png"; sourceTree = "<group>"; };
+		C35FC7CF1F29D784001A1825 /* my_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_1@3x.png"; sourceTree = "<group>"; };
+		C35FC7D01F29D784001A1825 /* my_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_2@2x.png"; sourceTree = "<group>"; };
+		C35FC7D11F29D784001A1825 /* my_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_2@3x.png"; sourceTree = "<group>"; };
+		C35FC7D21F29D784001A1825 /* recommendation_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recommendation_1@2x.png"; sourceTree = "<group>"; };
+		C35FC7D31F29D784001A1825 /* recommendation_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recommendation_1@3x.png"; sourceTree = "<group>"; };
+		C35FC7D41F29D784001A1825 /* recommendation_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recommendation_2@2x.png"; sourceTree = "<group>"; };
+		C35FC7D51F29D784001A1825 /* recommendation_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recommendation_2@3x.png"; sourceTree = "<group>"; };
+		C35FC7E51F29D904001A1825 /* UIImage+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImage.h"; sourceTree = "<group>"; };
+		C35FC7E61F29D904001A1825 /* UIImage+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImage.m"; sourceTree = "<group>"; };
+		C35FC7E91F29DBDC001A1825 /* navigationbarBackgroundWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbarBackgroundWhite.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35FC75D1F29C376001A1825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D285211924ECE54BFA4524EA /* libPods-excelDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35FC7761F29C376001A1825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35FC7811F29C376001A1825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35B8BEF9EC4DDA4E0506D5C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B5B437D7336F97F80811DDD /* Pods-excelDemo.debug.xcconfig */,
+				AFA91E0909F2BE337BD640C9 /* Pods-excelDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		642A7879C03FC969767DFF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA3F224AAE66DA4067A794C /* libPods-excelDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35FC7571F29C376001A1825 = {
+			isa = PBXGroup;
+			children = (
+				C35FC7621F29C376001A1825 /* excelDemo */,
+				C35FC77C1F29C376001A1825 /* excelDemoTests */,
+				C35FC7871F29C376001A1825 /* excelDemoUITests */,
+				C35FC7611F29C376001A1825 /* Products */,
+				35B8BEF9EC4DDA4E0506D5C1 /* Pods */,
+				642A7879C03FC969767DFF03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C35FC7611F29C376001A1825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7601F29C376001A1825 /* excelDemo.app */,
+				C35FC7791F29C376001A1825 /* excelDemoTests.xctest */,
+				C35FC7841F29C376001A1825 /* excelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35FC7621F29C376001A1825 /* excelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7E41F29D904001A1825 /* category */,
+				C35FC7BE1F29D6BA001A1825 /* other */,
+				C35FC7AD1F29C681001A1825 /* Resource */,
+				C35FC7A91F29C642001A1825 /* AppDelagate */,
+				C35FC79F1F29C612001A1825 /* Main */,
+				C35FC76C1F29C376001A1825 /* Main.storyboard */,
+				C35FC76F1F29C376001A1825 /* Assets.xcassets */,
+				C35FC7711F29C376001A1825 /* LaunchScreen.storyboard */,
+				C35FC7741F29C376001A1825 /* Info.plist */,
+				C35FC7631F29C376001A1825 /* Supporting Files */,
+			);
+			path = excelDemo;
+			sourceTree = "<group>";
+		};
+		C35FC7631F29C376001A1825 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC79E1F29C469001A1825 /* excelDemo.pch */,
+				C35FC7641F29C376001A1825 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C35FC77C1F29C376001A1825 /* excelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC77D1F29C376001A1825 /* excelDemoTests.m */,
+				C35FC77F1F29C376001A1825 /* Info.plist */,
+			);
+			path = excelDemoTests;
+			sourceTree = "<group>";
+		};
+		C35FC7871F29C376001A1825 /* excelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7881F29C376001A1825 /* excelDemoUITests.m */,
+				C35FC78A1F29C376001A1825 /* Info.plist */,
+			);
+			path = excelDemoUITests;
+			sourceTree = "<group>";
+		};
+		C35FC79F1F29C612001A1825 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7A01F29C612001A1825 /* Controller */,
+				C35FC7A51F29C612001A1825 /* Model */,
+				C35FC7A61F29C612001A1825 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C35FC7A01F29C612001A1825 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7A11F29C612001A1825 /* firstViewController.h */,
+				C35FC7A21F29C612001A1825 /* firstViewController.m */,
+				C35FC7A31F29C612001A1825 /* secondViewController.h */,
+				C35FC7A41F29C612001A1825 /* secondViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C35FC7A51F29C612001A1825 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7B01F29C6A9001A1825 /* systransInquirystockModel.h */,
+				C35FC7B11F29C6A9001A1825 /* systransInquirystockModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C35FC7A61F29C612001A1825 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7BB1F29CB26001A1825 /* TitleTableViewCell.h */,
+				C35FC7BC1F29CB26001A1825 /* TitleTableViewCell.m */,
+				C35FC7B81F29CAFD001A1825 /* DetailTableViewCell.h */,
+				C35FC7B91F29CAFD001A1825 /* DetailTableViewCell.m */,
+				C35FC7B31F29CA35001A1825 /* TopCollectionViewCell.h */,
+				C35FC7B41F29CA35001A1825 /* TopCollectionViewCell.m */,
+				C35FC7B51F29CA35001A1825 /* TopCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C35FC7A91F29C642001A1825 /* AppDelagate */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7AA1F29C642001A1825 /* AppDelegate.h */,
+				C35FC7AB1F29C642001A1825 /* AppDelegate.m */,
+			);
+			path = AppDelagate;
+			sourceTree = "<group>";
+		};
+		C35FC7AD1F29C681001A1825 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7E81F29DBDC001A1825 /* Navigation */,
+				C35FC7C71F29D784001A1825 /* Tabbar */,
+				C35FC7AE1F29C681001A1825 /* excel.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C35FC7BE1F29D6BA001A1825 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7BF1F29D6BA001A1825 /* Nagation */,
+				C35FC7C01F29D6BA001A1825 /* Tabar */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		C35FC7BF1F29D6BA001A1825 /* Nagation */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7C11F29D6F2001A1825 /* ARCHIENavViewController.h */,
+				C35FC7C21F29D6F2001A1825 /* ARCHIENavViewController.m */,
+			);
+			path = Nagation;
+			sourceTree = "<group>";
+		};
+		C35FC7C01F29D6BA001A1825 /* Tabar */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7C41F29D72D001A1825 /* ARCHIETabbarViewController.h */,
+				C35FC7C51F29D72D001A1825 /* ARCHIETabbarViewController.m */,
+			);
+			path = Tabar;
+			sourceTree = "<group>";
+		};
+		C35FC7C71F29D784001A1825 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7CA1F29D784001A1825 /* classification_1@2x.png */,
+				C35FC7CB1F29D784001A1825 /* classification_1@3x.png */,
+				C35FC7CC1F29D784001A1825 /* classification_2@2x.png */,
+				C35FC7CD1F29D784001A1825 /* classification_2@3x.png */,
+				C35FC7CE1F29D784001A1825 /* my_1@2x.png */,
+				C35FC7CF1F29D784001A1825 /* my_1@3x.png */,
+				C35FC7D01F29D784001A1825 /* my_2@2x.png */,
+				C35FC7D11F29D784001A1825 /* my_2@3x.png */,
+				C35FC7D21F29D784001A1825 /* recommendation_1@2x.png */,
+				C35FC7D31F29D784001A1825 /* recommendation_1@3x.png */,
+				C35FC7D41F29D784001A1825 /* recommendation_2@2x.png */,
+				C35FC7D51F29D784001A1825 /* recommendation_2@3x.png */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		C35FC7E41F29D904001A1825 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7E51F29D904001A1825 /* UIImage+UIImage.h */,
+				C35FC7E61F29D904001A1825 /* UIImage+UIImage.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		C35FC7E81F29DBDC001A1825 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC7E91F29DBDC001A1825 /* navigationbarBackgroundWhite.png */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35FC75F1F29C376001A1825 /* excelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35FC78D1F29C376001A1825 /* Build configuration list for PBXNativeTarget "excelDemo" */;
+			buildPhases = (
+				32A7C79B53A08842BE09B7E1 /* [CP] Check Pods Manifest.lock */,
+				C35FC75C1F29C376001A1825 /* Sources */,
+				C35FC75D1F29C376001A1825 /* Frameworks */,
+				C35FC75E1F29C376001A1825 /* Resources */,
+				5E06294D72D3ED0005CBC99D /* [CP] Embed Pods Frameworks */,
+				3A8CDC7291AD7B59161117F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = excelDemo;
+			productName = excelDemo;
+			productReference = C35FC7601F29C376001A1825 /* excelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C35FC7781F29C376001A1825 /* excelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35FC7901F29C376001A1825 /* Build configuration list for PBXNativeTarget "excelDemoTests" */;
+			buildPhases = (
+				C35FC7751F29C376001A1825 /* Sources */,
+				C35FC7761F29C376001A1825 /* Frameworks */,
+				C35FC7771F29C376001A1825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35FC77B1F29C376001A1825 /* PBXTargetDependency */,
+			);
+			name = excelDemoTests;
+			productName = excelDemoTests;
+			productReference = C35FC7791F29C376001A1825 /* excelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C35FC7831F29C376001A1825 /* excelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35FC7931F29C376001A1825 /* Build configuration list for PBXNativeTarget "excelDemoUITests" */;
+			buildPhases = (
+				C35FC7801F29C376001A1825 /* Sources */,
+				C35FC7811F29C376001A1825 /* Frameworks */,
+				C35FC7821F29C376001A1825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35FC7861F29C376001A1825 /* PBXTargetDependency */,
+			);
+			name = excelDemoUITests;
+			productName = excelDemoUITests;
+			productReference = C35FC7841F29C376001A1825 /* excelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35FC7581F29C376001A1825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = hmp;
+				TargetAttributes = {
+					C35FC75F1F29C376001A1825 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HVQMZ73MUZ;
+						ProvisioningStyle = Automatic;
+					};
+					C35FC7781F29C376001A1825 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HVQMZ73MUZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C35FC75F1F29C376001A1825;
+					};
+					C35FC7831F29C376001A1825 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HVQMZ73MUZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C35FC75F1F29C376001A1825;
+					};
+				};
+			};
+			buildConfigurationList = C35FC75B1F29C376001A1825 /* Build configuration list for PBXProject "excelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C35FC7571F29C376001A1825;
+			productRefGroup = C35FC7611F29C376001A1825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35FC75F1F29C376001A1825 /* excelDemo */,
+				C35FC7781F29C376001A1825 /* excelDemoTests */,
+				C35FC7831F29C376001A1825 /* excelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35FC75E1F29C376001A1825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35FC7D81F29D784001A1825 /* classification_1@2x.png in Resources */,
+				C35FC7DB1F29D784001A1825 /* classification_2@3x.png in Resources */,
+				C35FC7731F29C376001A1825 /* LaunchScreen.storyboard in Resources */,
+				C35FC7701F29C376001A1825 /* Assets.xcassets in Resources */,
+				C35FC7AF1F29C681001A1825 /* excel.plist in Resources */,
+				C35FC7D91F29D784001A1825 /* classification_1@3x.png in Resources */,
+				C35FC7DF1F29D784001A1825 /* my_2@3x.png in Resources */,
+				C35FC7DC1F29D784001A1825 /* my_1@2x.png in Resources */,
+				C35FC7E01F29D784001A1825 /* recommendation_1@2x.png in Resources */,
+				C35FC7E21F29D784001A1825 /* recommendation_2@2x.png in Resources */,
+				C35FC7B71F29CA35001A1825 /* TopCollectionViewCell.xib in Resources */,
+				C35FC7DD1F29D784001A1825 /* my_1@3x.png in Resources */,
+				C35FC7EA1F29DBDC001A1825 /* navigationbarBackgroundWhite.png in Resources */,
+				C35FC76E1F29C376001A1825 /* Main.storyboard in Resources */,
+				C35FC7E11F29D784001A1825 /* recommendation_1@3x.png in Resources */,
+				C35FC7DE1F29D784001A1825 /* my_2@2x.png in Resources */,
+				C35FC7E31F29D784001A1825 /* recommendation_2@3x.png in Resources */,
+				C35FC7DA1F29D784001A1825 /* classification_2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35FC7771F29C376001A1825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35FC7821F29C376001A1825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A7C79B53A08842BE09B7E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A8CDC7291AD7B59161117F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-excelDemo/Pods-excelDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E06294D72D3ED0005CBC99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-excelDemo/Pods-excelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35FC75C1F29C376001A1825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35FC7B61F29CA35001A1825 /* TopCollectionViewCell.m in Sources */,
+				C35FC7B21F29C6A9001A1825 /* systransInquirystockModel.m in Sources */,
+				C35FC7A71F29C612001A1825 /* firstViewController.m in Sources */,
+				C35FC7A81F29C612001A1825 /* secondViewController.m in Sources */,
+				C35FC7BD1F29CB26001A1825 /* TitleTableViewCell.m in Sources */,
+				C35FC7E71F29D904001A1825 /* UIImage+UIImage.m in Sources */,
+				C35FC7651F29C376001A1825 /* main.m in Sources */,
+				C35FC7AC1F29C642001A1825 /* AppDelegate.m in Sources */,
+				C35FC7BA1F29CAFD001A1825 /* DetailTableViewCell.m in Sources */,
+				C35FC7C61F29D72D001A1825 /* ARCHIETabbarViewController.m in Sources */,
+				C35FC7C31F29D6F2001A1825 /* ARCHIENavViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35FC7751F29C376001A1825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35FC77E1F29C376001A1825 /* excelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35FC7801F29C376001A1825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35FC7891F29C376001A1825 /* excelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C35FC77B1F29C376001A1825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35FC75F1F29C376001A1825 /* excelDemo */;
+			targetProxy = C35FC77A1F29C376001A1825 /* PBXContainerItemProxy */;
+		};
+		C35FC7861F29C376001A1825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35FC75F1F29C376001A1825 /* excelDemo */;
+			targetProxy = C35FC7851F29C376001A1825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C35FC76C1F29C376001A1825 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35FC76D1F29C376001A1825 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C35FC7711F29C376001A1825 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35FC7721F29C376001A1825 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C35FC78B1F29C376001A1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C35FC78C1F29C376001A1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C35FC78E1F29C376001A1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5B437D7336F97F80811DDD /* Pods-excelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVQMZ73MUZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/administrator/Desktop/demo/excelDemo/excelDemo.pch;
+				INFOPLIST_FILE = excelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmp.excelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C35FC78F1F29C376001A1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA91E0909F2BE337BD640C9 /* Pods-excelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVQMZ73MUZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/administrator/Desktop/demo/excelDemo/excelDemo.pch;
+				INFOPLIST_FILE = excelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmp.excelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C35FC7911F29C376001A1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HVQMZ73MUZ;
+				INFOPLIST_FILE = excelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmp.excelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/excelDemo.app/excelDemo";
+			};
+			name = Debug;
+		};
+		C35FC7921F29C376001A1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HVQMZ73MUZ;
+				INFOPLIST_FILE = excelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmp.excelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/excelDemo.app/excelDemo";
+			};
+			name = Release;
+		};
+		C35FC7941F29C376001A1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HVQMZ73MUZ;
+				INFOPLIST_FILE = excelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmp.excelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = excelDemo;
+			};
+			name = Debug;
+		};
+		C35FC7951F29C376001A1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HVQMZ73MUZ;
+				INFOPLIST_FILE = excelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmp.excelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = excelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35FC75B1F29C376001A1825 /* Build configuration list for PBXProject "excelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35FC78B1F29C376001A1825 /* Debug */,
+				C35FC78C1F29C376001A1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35FC78D1F29C376001A1825 /* Build configuration list for PBXNativeTarget "excelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35FC78E1F29C376001A1825 /* Debug */,
+				C35FC78F1F29C376001A1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35FC7901F29C376001A1825 /* Build configuration list for PBXNativeTarget "excelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35FC7911F29C376001A1825 /* Debug */,
+				C35FC7921F29C376001A1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35FC7931F29C376001A1825 /* Build configuration list for PBXNativeTarget "excelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35FC7941F29C376001A1825 /* Debug */,
+				C35FC7951F29C376001A1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35FC7581F29C376001A1825 /* Project object */;
+}

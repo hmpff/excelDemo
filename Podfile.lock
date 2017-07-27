@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.2)
+  - MJExtension (~> 3.0.10)
+  - SVProgressHUD (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: cb7295d102715edcc140060c100efba07c2f0330
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,41 @@
+//
+//  excelDemo.pch
+//  excelDemo
+//
+//  Created by administrator on 17/7/27.
+//  Copyright © 2017年 hmp. All rights reserved.
+//
+
+#ifndef excelDemo_pch
+#define excelDemo_pch
+
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+
+//5s屏幕字体
+#define FONT(R) (R)*(kScreenWidth)/320.0
+#define KRATE (kScreenWidth/320.0)
+#define KKRATE(rate) (KRATE > 1 ? KRATE*rate : KRATE)
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define NavH 64
+#define tabBarH 49
+
+#define kItem_Height 60
+#define kItem_Number 2
+#define kDetail_Item_Number 2
+#define kAverageTableViewWidth (kScreenWidth / 3) // 子视图宽度
+#define kTopCarIconListViewHeight 30
+
+static int          numberOfRows               =   8;
+static NSInteger    numberOfSections           =   8;
+static CGFloat      rowHight                   =   60;
+static CGFloat      heightForHeaderInSection   =   0;
+
+//头部视图背景颜色
+#define systranTopViewColor  [UIColor colorWithRed:63.0/255.0 green:139.0/255.0 blue:250.0/255.0 alpha:1.0]
+#define wareHouseBtnColor [UIColor colorWithRed:58.0/255.0 green:104.0/255.0 blue:172.0/255.0 alpha:1.0]
+#endif 
